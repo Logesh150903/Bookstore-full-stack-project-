@@ -1,0 +1,6 @@
+<div class="main">
+    <div (click)="gotourl('')" [class.selected]="url === '/'">Home<mat-icon>home</mat-icon></div>
+    <div (click)="gotourl('about-us')" [class.selected]="url === '/about-us'"mat-icon-button>About us<mat-icon>info</mat-icon></div>
+    <div (click)="gotourl('contact')" [class.selected]="url === '/contact'">Contact Us<mat-icon>call</mat-icon></div>
+    <div (click)="gotourl('login')" [class.selected]="url === '/login'">Login<mat-icon>login</mat-icon></div>
+</div>
